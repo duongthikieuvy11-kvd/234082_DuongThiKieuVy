@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Endpoint kiểm tra trạng thái
 app.get('/health', (req, res) => {
-  res.json({ status: 'Backend đang hoạt động bình thường' });
+  res.json({ status: 'Backend đang hoạt động bình tahường' });
 });
 
 // Kết nối Database
